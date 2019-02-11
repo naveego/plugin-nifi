@@ -7,6 +7,7 @@ require (
 	github.com/golang/protobuf v1.2.0
 	github.com/hashicorp/go-hclog v0.0.0-20190109152822-4783caec6f2e
 	github.com/hashicorp/go-plugin v0.0.0-20190129155509-362c99b11937
+	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/magefile/mage v1.8.0 // indirect
 	github.com/naveego/api v0.0.0-20181109204527-01213806557a // indirect
 	github.com/naveego/ci v0.0.0-20181106200225-bbe2ffc37d32

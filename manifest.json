@@ -20,7 +20,7 @@
             "properties": {
                 "port": {
                     "$id": "/properties/port",
-                    "type": "int",
+                    "type": "integer",
                     "title": "Listen Port",
                     "description": "The TCP port the plugin will listen on.",
                     "default": 33500
