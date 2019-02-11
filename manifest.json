@@ -1,0 +1,34 @@
+{
+    "id": "plugin-nifi",
+    "displayName": "Apache Nifi",
+    "description": "A plugin for integrating with Apache Nifi.",
+    "versionDescription": "Version 1",
+    "version": "1.0.0",
+    "iconFile": "icon.png",
+    "executable": "plugin-nifi",
+    "kind": "publisher",
+    "os":"$GOOS",
+    "arch":"$GOARCH",
+    "canConfigureRealTime": true,
+    "configSchema": {
+        "ui": {
+            "ui:order":["port"]
+        },
+        "schema": {
+            "$id": "https://github.com/naveego/plugin-nifi",
+            "type": "object",
+            "properties": {
+                "port": {
+                    "$id": "/properties/port",
+                    "type": "int",
+                    "title": "Listen Port",
+                    "description": "The TCP port the plugin will listen on.",
+                    "default": 33500
+                }
+            },
+            "required": [
+                "port"
+            ]
+        }
+    }
+}
