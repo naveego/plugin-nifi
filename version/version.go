@@ -4,9 +4,9 @@ import "github.com/coreos/go-semver/semver"
 
 var (
 	// VersionMajor is for an API incompatible changes.
-	VersionMajor int64 = 1
+	VersionMajor int64 = 0
 	// VersionMinor is for functionality in a backwards-compatible manner.
-	VersionMinor int64 = 0
+	VersionMinor int64 = 1
 	// VersionPatch is for backwards-compatible bug fixes.
 	VersionPatch int64 = 0
 	// VersionPre indicates prerelease.
